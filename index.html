@@ -6,6 +6,7 @@
     <title>CALCULATOR</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/index.css'>
     <script src='assets/js/script.js'></script>
@@ -50,5 +51,20 @@
               </div>
         
     </div>
+    <div class="calc">      
+        <form>
+        <input id="first_number" type="number" placeholder="Enter a number" />
+        <select id="operator">
+          <option>choose</option>
+          <option>+</option>
+          <option>-</option>
+          <option>×</option>
+          <option>&#247;</option>
+        </select>      
+        <input id="second_number" type="number" placeholder="Enter a number"  />
+        <input id="enter_button" type="button" value="Calculate" />
+        <label id="answer"></label>
+        </form>
+        </div>
 </body>
 </html>
