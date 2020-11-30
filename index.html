@@ -12,34 +12,37 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="input" id="input"></div>
+        <div class="input" id="screen">
+            <p></p>
+        </div>
         <div class="display-screen">
            
                 <div class="operators">
-                  <div class="icon">+</div>
-                  <div class="icon">-</div>
-                  <div class="icon">&times;</div>
-                  <div class="icon">&divide;</div>
+                  <div class="icon" id="value">+</div>
+                  <!-- onclick="btn()" -->
+                  <div class="icon" id="value">-</div>
+                  <div class="icon" id="value">&times;</div>
+                  <div class="icon" id="value">&divide;</div>
                 </div>
                 <div class="left">
                   <div class="numbers">
-                    <div class="number-order">7</div>
-                    <div class="number-order">8</div>
-                    <div class="number-order">9</div>
+                    <div class="number-order" id="value">7</div>
+                    <div class="number-order" id="value">8</div>
+                    <div class="number-order" id="value">9</div>
                   </div>
                   <div class="numbers">
-                    <div class="number-order">4</div>
-                    <div class="number-order">5</div>
-                    <div class="number-order">6</div>
+                    <div class="number-order" id="value">4</div>
+                    <div class="number-order" id="value">5</div>
+                    <div class="number-order" id="value">6</div>
                   </div>
                   <div class="numbers">
-                    <div class="number-order">1</div>
-                    <div class="number-order">2</div>
-                    <div class="number-order">3</div>
+                    <div class="number-order" id="value">1</div>
+                    <div class="number-order" id="value">2</div>
+                    <div class="number-order" id="value">3</div>
                   </div>
                   <div class="numbers">
-                    <div class="number-order">0</div>
-                    <div class="number-order">.</div>
+                    <div class="number-order" id="value">0</div>
+                    <div class="number-order" id="value">.</div>
                     <div id="clear" class="number-order">C</div>
                   </div>
                 </div>
